@@ -168,7 +168,7 @@ jobs:
           registry: ${{ steps.login-ecr.outputs.registry }}
 
       - name: Build 'vector' target image
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v3.3.0
         with:
           context: baseline-vector/
           cache-from: type=gha
@@ -216,7 +216,7 @@ jobs:
           registry: ${{ steps.login-ecr.outputs.registry }}
 
       - name: Build 'vector' target image
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v3.3.0
         with:
           context: comparison-vector/
           cache-from: type=gha

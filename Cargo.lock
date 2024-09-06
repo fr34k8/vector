@@ -2680,9 +2680,9 @@ dependencies = [
 
 [[package]]
 name = "dashmap"
-version = "6.0.0"
+version = "6.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "23fadfd577acfd4485fb258011b0fd080882ea83359b6fd41304900b94ccf487"
+checksum = "5041cc499144891f3790297212f32a74fb938e5136a14943f338ef9e0ae276cf"
 dependencies = [
  "cfg-if",
  "crossbeam-utils",
@@ -3340,7 +3340,7 @@ dependencies = [
  "chrono",
  "crc",
  "criterion",
- "dashmap 6.0.0",
+ "dashmap 6.1.0",
  "flate2",
  "futures 0.3.30",
  "glob",
@@ -9942,7 +9942,7 @@ name = "tracing-limit"
 version = "0.1.0"
 dependencies = [
  "criterion",
- "dashmap 6.0.0",
+ "dashmap 6.1.0",
  "mock_instant",
  "tracing 0.1.40",
  "tracing-core 0.1.32",

@@ -1923,7 +1923,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "93698b29de5e97ad0ae26447b344c482a7284c737d9ddc5f9e52b74a336671bb"
 dependencies = [
  "chrono",
- "chrono-tz-build",
+ "chrono-tz-build 0.3.0",
+ "phf",
+]
+
+[[package]]
+name = "chrono-tz"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cd6dd8046d00723a59a2f8c5f295c515b9bb9a331ee4f8f3d4dd49e428acd3b6"
+dependencies = [
+ "chrono",
+ "chrono-tz-build 0.4.0",
  "phf",
  "serde",
 ]
@@ -1936,6 +1947,16 @@ checksum = "0c088aee841df9c3041febbb73934cfc39708749bf96dc827e3359cd39ef11b1"
 dependencies = [
  "parse-zoneinfo",
  "phf",
+ "phf_codegen",
+]
+
+[[package]]
+name = "chrono-tz-build"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e94fea34d77a245229e7746bd2beb786cd2a896f306ff491fb8cecb3074b10a7"
+dependencies = [
+ "parse-zoneinfo",
  "phf_codegen",
 ]
 
@@ -10467,7 +10488,7 @@ dependencies = [
  "bytes 1.6.0",
  "bytesize",
  "chrono",
- "chrono-tz",
+ "chrono-tz 0.10.0",
  "cidr-utils 0.6.1",
  "clap",
  "colored",
@@ -10687,7 +10708,7 @@ dependencies = [
  "async-stream",
  "bytes 1.6.0",
  "chrono",
- "chrono-tz",
+ "chrono-tz 0.10.0",
  "crossbeam-utils",
  "derivative",
  "futures 0.3.30",
@@ -10719,7 +10740,7 @@ version = "0.1.0"
 dependencies = [
  "assert-json-diff",
  "chrono",
- "chrono-tz",
+ "chrono-tz 0.10.0",
  "encoding_rs",
  "http 0.2.9",
  "indexmap 2.2.6",
@@ -10778,7 +10799,7 @@ dependencies = [
  "bitmask-enum",
  "bytes 1.6.0",
  "chrono",
- "chrono-tz",
+ "chrono-tz 0.10.0",
  "criterion",
  "crossbeam-utils",
  "db-key",
@@ -10921,7 +10942,7 @@ version = "0.1.0"
 dependencies = [
  "ansi_term",
  "chrono",
- "chrono-tz",
+ "chrono-tz 0.10.0",
  "clap",
  "enrichment",
  "glob",
@@ -10981,7 +11002,7 @@ dependencies = [
  "chacha20poly1305",
  "charset",
  "chrono",
- "chrono-tz",
+ "chrono-tz 0.9.0",
  "cidr-utils 0.6.1",
  "clap",
  "codespan-reporting",

@@ -5561,7 +5561,7 @@ dependencies = [
  "libc",
  "percent-encoding",
  "pin-project-lite",
- "socket2 0.5.10",
+ "socket2 0.6.3",
  "tokio",
  "tower-service",
  "tracing 0.1.44",
@@ -10006,7 +10006,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.12.1",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -10122,7 +10122,7 @@ dependencies = [
  "security-framework 3.6.0",
  "security-framework-sys",
  "webpki-root-certs",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -11576,7 +11576,7 @@ dependencies = [
  "getrandom 0.4.2",
  "once_cell",
  "rustix 1.1.4",
- "windows-sys 0.52.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -13116,7 +13116,7 @@ dependencies = [
  "smpl_jwt",
  "snafu 0.9.0",
  "snap",
- "socket2 0.5.10",
+ "socket2 0.6.3",
  "sqlx",
  "stream-cancel",
  "strip-ansi-escapes",
@@ -13380,7 +13380,7 @@ dependencies = [
  "similar-asserts",
  "smallvec",
  "snafu 0.9.0",
- "socket2 0.5.10",
+ "socket2 0.6.3",
  "strum 0.28.0",
  "tokio",
  "tokio-openssl",
